@@ -25,44 +25,5 @@ Bootstrap 5
 
 SQLite
 
-Setup Instructions
-Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/job-application-form.git
-cd job-application-form
-Create and activate a virtual environment
-
-bash
-Copy
-Edit
-python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set environment variable for email password
-Create an App Password if using Gmail:
-
-bash
-Copy
-Edit
-export SUB_FORM=your_gmail_app_password  # On Linux/macOS
-set SUB_FORM=your_gmail_app_password     # On Windows
-Run the application
-
-bash
-Copy
-Edit
-python app.py
-Visit the app
-Open your browser and go to: http://localhost:5001
-
-License
-MIT License
 
